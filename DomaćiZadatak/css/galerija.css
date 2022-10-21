@@ -1,0 +1,97 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+
+body{
+    background-image: url(../images/poyadinaG.jpg) ;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header-div>ul  {
+    padding:20px;
+     background-color:rgba(141, 165, 167, 0.479);
+    margin: bottom 5%;
+    position: sticky;
+    top: 0;
+}
+ul , a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-right: 3em;
+
+color: black;
+
+}
+#naslov  {
+    color: bisque;
+    text-shadow: 5px;
+text-align: center;
+font-weight: 800;
+margin-top: 5%;
+}
+
+#naslov:hover{
+    color: rgb(101, 146, 101)
+}
+
+image:hover {
+    transform: scaleX(-1);
+  }
+
+.sviProizvodi{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: 300px 300px ;
+margin: 15%;
+gap: 30px;
+row-gap: 70px;
+}
+
+.proizvod {
+    text-align: center;
+    font-weight: bolder;
+    padding: 16px;
+}
+.sviProizvodi  .proizvod{
+
+    background-color:rgba(141, 165, 167, 0.479); ;
+}
+
+img{
+    margin-top: 10%;
+    transition: transform 0.5s  ease;  
+
+}
+img:hover{
+    transform: scale(1.5); 
+}
+
+
+
+
+@media (max-width:1200px) and (min-width:750px){
+    .sviProizvodi{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px ;
+        
+        
+        }
+
+}
+
+@media (max-width:850px){
+    .sviProizvodi{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px ;
+        
+        
+        }
+
+}

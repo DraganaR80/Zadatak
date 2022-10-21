@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../images/pocetniciPoz.jpg) ;
+   
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header-div>ul  {
+    padding:20px;
+     background-color:rgba(255, 228, 196, 0.74);
+    margin: bottom 5%;
+    position: sticky;
+    top: 0;
+}
+
+    ul , a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-right: 3em;
+    
+    color: black;
+    
+    }
+
+    .uvod{
+        margin-top:4%;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 5%;
+padding: 3% 10% 3% 10%;
+margin-top: 5%;
+background-color: rgba(255, 228, 196, 0.74);
+border: 2px solid;
+border-radius: 10px;
+
+font-size: x-large
+;
+    }
+
+   
+ .slika{
+float: left;
+margin-left: 5%;
+margin-right:1em;
+padding: 5%;
+border: 2px solid black;
+border-radius: 10px;
+background-color:rgba(255, 228, 196, 0.74); 
+
+    }
+    
+   
+    .komentar {
+    float: right;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgba(255, 228, 196, 0.74);
+    text-align: center; 
+    margin-right: 7%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding: 5%;
+
+    
+ } 
+    .pošalji {
+        border: 1px solid black;
+        border-radius: 5%;
+        height: 25px;
+        width: 60px;
+    
+
+    }
+    .pošalji{
+        background:#5858518e ;
+        color: black;
+        border-radius: 5px;
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+        box-shadow: 0 10px 15px rgba(0,0,0,.2);
+        cursor: pointer;
+
+    }
+    
+    .pošalji:hover {
+        letter-spacing: 1px;
+      }
+ 
+  .pošalji{
+    box-shadow: none;
+    transform: scale(.9);
+}
+
+  
+
+       .media {
+        float: right;
+        align-items: flex-start;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        padding: 5%;
+        border: 2px solid black;
+        border-radius: 10px;
+background-color:rgba(255, 228, 196, 0.74);   }
+
+
+
+        
+
+    
